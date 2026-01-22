@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Metal Expert</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <div class="nav-left">
+      <div class="logo">
+        <img class="logo-img" src="images/logo.png" alt="Metal Expert" />
+      </div>
+
+      <div class="location-box">
+        <span>Location</span>
+        <select>
+          <option>Shanghai</option>
+          <option>Düsseldorf</option>
+          <option>Mumbai</option>
+        </select>
+      </div>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search" />
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <button class="nav-action" type="button" aria-label="Alerts">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9" />
+          <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+        </svg>
+        <span class="nav-action-label">Alerts</span>
+      </button>
+
+      <button class="nav-action" type="button" aria-label="Messages">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z" />
+        </svg>
+        <span class="nav-action-label">Message</span>
+      </button>
+
+      <button class="nav-action" type="button" aria-label="Login">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <path d="M20 21a8 8 0 0 0-16 0" />
+          <circle cx="12" cy="7" r="4" />
+        </svg>
+        <span class="nav-action-label">Login</span>
+      </button>
+
+      <button class="sell-btn" type="button">Sell <span class="sell-arrow" aria-hidden="true">→</span></button>
+    </div>
+  </header>
+
+  <!-- ============ CATEGORY TABS ============ -->
+  <div class="category-tabs" style="
+    width: 1470px;
+    height: 170px;
+    margin-top: 0%;
+    padding: 64px 80px;
+    display: flex;
+    gap: 10px;
+    opacity: 1;
+    align-items: center;
+    box-sizing: border-box;
+  ">
+    <button class="tab">Categories</button>
+    <button class="tab">Steel</button>
+    <button class="tab">Zinc</button>
+    <button class="tab">Iron</button>
+    <button class="tab">Copper</button>
+    <button class="tab">Brass</button>
+    <button class="tab">Aluminium</button>
+  </div>
+
+
+  <main>
+    <section id="hero">
+      <!-- ================= HERO SECTION ================= -->
+      <section class="hero">
+        
+  </div>
+        <div class="hero-left">
+          <h1>
+            Connecting Verified<br />
+            <span>Buyers & Sellers</span>
+          </h1>
+
+          <p class="hero-subtext">
+            India's trusted platform for sourcing and selling industrial metals with confidence.
+          </p>
+
+          <div class="hero-features">
+            <div class="feature">
+              <span>✔</span>
+              <p>Trusted Platform</p>
+            </div>
+            <div class="feature">
+              <span>💲</span>
+              <p>Safe & Secure Payments</p>
+            </div>
+            <div class="feature">
+              <span>⚡</span>
+              <p>Quick Assistance</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <h3>Tell Us What You Need</h3>
+
+          <input type="text" placeholder="Enter metal or product name" />
+          <input type="text" placeholder="Enter city / delivery location" />
+
+          <button class="submit-btn">Submit Requirement →</button>
+
+          <p class="form-note">
+            Get multiple quotes from verified sellers
+          </p>
+
+        </div>
+
+      </section>
+      <!-- HERO TRUST STRIP -->
+      <div class="hero-trust-strip">
+        <div class="trust-item">
+          <span class="check-icon">✓</span>
+          <p>Convenience of Buying</p>
+        </div>
+
+        <div class="trust-item">
+          <span class="check-icon">✓</span>
+          <p>Competitive Quotes</p>
+        </div>
+
+        <div class="trust-item">
+          <span class="check-icon">✓</span>
+          <p>Secure Payments</p>
+        </div>
+
+        <div class="trust-item">
+          <span class="check-icon">✓</span>
+          <p>Verified Buyers & Sellers</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="categories">
+      <!-- ================= BROWSE CATEGORIES ================= -->
+      <section class="browse-categories">
+        <h2>Browse Metals by Category</h2>
+
+        <div class="category-grid">
+          <div class="category-card">
+            <img src="images/zinc.png" alt="Zinc" />
+            <h4>Zinc</h4>
+            <p>Ingots, Sheets, Industrial Use</p>
+          </div>
+
+
+          <div class="category-card">
+            <img src="images/iron.png" alt="Iron" />
+            <h4>Iron</h4>
+            <p>Raw & Processed Iron</p>
+          </div>
+
+
+          <div class="category-card">
+            <img src="images/copper.png" alt="Copper" />
+            <h4>Copper</h4>
+            <p>Wires, Sheets, Coils</p>
+          </div>
+
+          <div class="category-card">
+            <img src="images/brass.png" alt="Brass" />
+            <h4>Brass</h4>
+            <p>Rods, Components</p>
+          </div>
+
+          <div class="category-card">
+            <img src="images/steel.png" alt="Steel" />
+            <h4>Steel</h4>
+            <p>Beams, Plates, Pipes</p>
+          </div>
+
+
+          <div class="category-card">
+            <img src="images/Aluminium.png" alt="Aluminium" />
+            <h4>Aluminium</h4>
+            <p>Sheets, Extrusions</p>
+          </div>
+        </div>
+
+        <button class="view-all-btn">View All Categories →</button>
+      </section>
+
+    </section>
+
+
+    <section id="get-started">
+      <!-- ================= GET STARTED SECTION ================= -->
+      <section class="get-started">
+        <h2>Get Started in Minutes</h2>
+        <p class="get-started-subtext">
+          Join thousands of buyers and sellers on India's trusted metal marketplace
+        </p>
+
+        <div class="cta-cards">
+
+          <!-- BUY METAL CARD -->
+          <div class="cta-card buy-card">
+            <div class="cta-icon">
+              <img class="cta-icon-img" src="images/buy-icon.png" alt="Buy metal" />
+            </div>
+            <h3>Buy Metal</h3>
+            <p>
+              Post your requirement and get competitive quotes from verified sellers within hours.
+            </p>
+            <button class="cta-btn light-btn">Request Quote →</button>
+          </div>
+
+          <!-- SELL METAL CARD -->
+          <div class="cta-card sell-card">
+            <div class="cta-icon">
+              <img class="cta-icon-img" src="images/sell-icon.png" alt="Sell metal" />
+            </div>
+            <h3>Sell Metal</h3>
+            <p>
+              List your products and connect directly with verified buyers looking for metal supplies.
+            </p>
+            <button class="cta-btn dark-btn">Start Selling →</button>
+          </div>
+
+        </div>
+      </section>
+
+    </section>
+
+
+
+    <section id="buy-zinc">
+      <!-- ================= BUY ZINC SECTION ================= -->
+      <section class="product-section">
+        <h2>Buy Zinc</h2>
+
+        <div class="product-grid">
+
+          <!-- PRODUCT CARD -->
+          <div class="product-card">
+            <img src="images/steel1.png" alt="Steel Plates" />
+
+            <h4>Steel Plates & Sheets</h4>
+            <p class="company">SteelMax Industries</p>
+
+            <div class="product-meta">
+              <span class="tag">zinc</span>
+              <span class="date">4 January 2026</span>
+            </div>
+          </div>
+
+          <!-- PRODUCT CARD -->
+          <div class="product-card">
+            <img src="images/steel2.png" alt="Structural Steel" />
+
+            <h4>Structural Steel Beams</h4>
+            <p class="company">SteelMax Industries</p>
+
+            <div class="product-meta">
+              <span class="tag">zinc</span>
+              <span class="date">4 January 2026</span>
+            </div>
+          </div>
+
+          <!-- PRODUCT CARD -->
+          <div class="product-card">
+            <img src="images/steel1.png" alt="Steel Plates" />
+
+            <h4>Steel Plates & Sheets</h4>
+            <p class="company">SteelMax Industries</p>
+
+            <div class="product-meta">
+              <span class="tag">zinc</span>
+              <span class="date">4 January 2026</span>
+            </div>
+          </div>
+
+          <!-- PRODUCT CARD -->
+          <div class="product-card">
+            <img src="images/steel2.png" alt="Structural Steel" />
+
+            <h4>Structural Steel Beams</h4>
+            <p class="company">SteelMax Industries</p>
+
+            <div class="product-meta">
+              <span class="tag">Steel</span>
+              <span class="date">4 January 2026</span>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="explore-btn">Explore More →</button>
+      </section>
+
+    </section>
+
+
+    <section id="buy-steel">
+      <!-- ================= BUY STEEL SECTION ================= -->
+      <section class="product-section">
+        <h2>Buy Steel</h2>
+
+        <div class="product-grid">
+
+          <!-- PRODUCT CARD -->
+          <div class="product-card">
+            <img src="images/steel1.png" alt="Steel Plates" />
+
+            <h4>Steel Plates & Sheets</h4>
+            <p class="company">SteelMax Industries</p>
+
+            <div class="product-meta">
+              <span class="tag">Steel</span>
+              <span class="date">4 January 2026</span>
+            </div>
+          </div>
+
+          <!-- PRODUCT CARD -->
+          <div class="product-card">
+            <img src="images/steel2.png" alt="Structural Steel" />
+
+            <h4>Structural Steel Beams</h4>
+            <p class="company">SteelMax Industries</p>
+
+            <div class="product-meta">
+              <span class="tag">Steel</span>
+              <span class="date">4 January 2026</span>
+            </div>
+          </div>
+
+          <!-- PRODUCT CARD -->
+          <div class="product-card">
+            <img src="images/steel1.png" alt="Steel Plates" />
+
+            <h4>Steel Plates & Sheets</h4>
+            <p class="company">SteelMax Industries</p>
+
+            <div class="product-meta">
+              <span class="tag">Steel</span>
+              <span class="date">4 January 2026</span>
+            </div>
+          </div>
+
+          <!-- PRODUCT CARD -->
+          <div class="product-card">
+            <img src="images/steel2.png" alt="Structural Steel" />
+
+            <h4>Structural Steel Beams</h4>
+            <p class="company">SteelMax Industries</p>
+
+            <div class="product-meta">
+              <span class="tag">Steel</span>
+              <span class="date">4 January 2026</span>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="explore-btn">Explore More →</button>
+      </section>
+
+    </section>
+
+
+    <section id="buy-iron">
+      <!-- ================= BUY IRON SECTION ================= -->
+      <section class="product-section">
+        <h2>Buy Iron</h2>
+
+        <div class="product-grid">
+
+          <!-- PRODUCT CARD -->
+          <div class="product-card">
+            <img src="images/steel1.png" alt="Steel Plates" />
+
+            <h4>Steel Plates & Sheets</h4>
+            <p class="company">SteelMax Industries</p>
+
+            <div class="product-meta">
+              <span class="tag">Iron</span>
+              <span class="date">4 January 2026</span>
+            </div>
+          </div>
+
+          <!-- PRODUCT CARD -->
+          <div class="product-card">
+            <img src="images/steel2.png" alt="Structural Steel" />
+
+            <h4>Structural Steel Beams</h4>
+            <p class="company">SteelMax Industries</p>
+
+            <div class="product-meta">
+              <span class="tag">Iron</span>
+              <span class="date">4 January 2026</span>
+            </div>
+          </div>
+
+          <!-- PRODUCT CARD -->
+          <div class="product-card">
+            <img src="images/steel1.png" alt="Steel Plates" />
+
+            <h4>Steel Plates & Sheets</h4>
+            <p class="company">SteelMax Industries</p>
+
+            <div class="product-meta">
+              <span class="tag">Iron</span>
+              <span class="date">4 January 2026</span>
+            </div>
+          </div>
+
+          <!-- PRODUCT CARD -->
+          <div class="product-card">
+            <img src="images/steel2.png" alt="Structural Steel" />
+
+            <h4>Structural Steel Beams</h4>
+            <p class="company">SteelMax Industries</p>
+
+            <div class="product-meta">
+              <span class="tag">Iron</span>
+              <span class="date">4 January 2026</span>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="explore-btn">Explore More →</button>
+      </section>
+
+    </section>
+
+
+
+    <section id="download-app">
+      <!-- ================= DOWNLOAD APP SECTION ================= -->
+      <section class="download-app">
+        <div class="download-container ">
+
+          <!-- LEFT IMAGE -->
+          <div class="app-image">
+            <img src="images/mobile.png" alt="Mobile App" />
+          </div>
+
+          <!-- CENTER CONTENT -->
+          <div class="app-content">
+            <h2>Download Metal Expert APP</h2>
+            <p>
+              Buy and sell industrial metals anytime, connect with verified buyers and sellers,
+              and manage requirements faster — all from one place.
+            </p>
+          </div>
+
+          <!-- RIGHT BADGES -->
+          <div class="store-buttons" aria-label="Download app">
+            <a class="store-link" href="#" aria-label="Get it on Google Play">
+              <img src="images/google-play.png" alt="Google Play" />
+            </a>
+            <a class="store-link" href="#" aria-label="Download on the App Store">
+              <img src="images/app-store.png" alt="App Store" />
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+    </section>
+    <section id="top-sellers">
+      <!-- ================= TOP METAL SELLERS (FIGMA STYLE) ================= -->
+      <section class="top-sellers">
+        <h2>Top Metal Sellers</h2>
+
+        <div class="seller-grid">
+
+          <!-- SELLER CARD -->
+          <div class="seller-card">
+            <img src="images/seller1.png" alt="Seller" class="seller-cover" />
+
+            <div class="seller-body">
+              <div class="seller-header">
+                <h4>MetalsCorp Industries</h4>
+                <span class="verified">✔</span>
+              </div>
+
+              <p class="seller-location">📍 Shanghai, China</p>
+              <p class="seller-category">Aluminum</p>
+
+              <button class="profile-btn">
+                View Profile <span>→</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- SELLER CARD -->
+          <div class="seller-card">
+            <img src="images/seller2.png" alt="Seller" class="seller-cover" />
+
+            <div class="seller-body">
+              <div class="seller-header">
+                <h4>SteelWorks International</h4>
+                <span class="verified">✔</span>
+              </div>
+
+              <p class="seller-location">📍 Düsseldorf, Germany</p>
+              <p class="seller-category">Stainless Steel</p>
+
+              <button class="profile-btn">
+                View Profile <span>→</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- SELLER CARD -->
+          <div class="seller-card">
+            <img src="images/seller3.png" alt="Seller" class="seller-cover" />
+
+            <div class="seller-body">
+              <div class="seller-header">
+                <h4>ElectroMetals Ltd</h4>
+                <span class="verified">✔</span>
+              </div>
+
+              <p class="seller-location">📍 Mumbai, India</p>
+              <p class="seller-category">Copper</p>
+
+              <button class="profile-btn">
+                View Profile <span>→</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <a href="#" class="view-all-link">View All Sellers →</a>
+      </section>
+
+
+    </section>
+
+
+
+    <section id="final-cta">
+      <!-- ================= FINAL CTA SECTION (FIGMA MATCH) ================= -->
+      <section class="final-cta">
+        <div class="cta-container">
+
+          <h2>Ready to Trade Industrial Metals?</h2>
+          <p class="cta-subtext">
+            Connect with verified metal buyers and sellers across India.
+          </p>
+
+          <div class="cta-buttons">
+            <button class="primary-cta">
+              ✈ Post Your Requirement
+            </button>
+
+            <button class="secondary-cta">
+              Join as Seller <span>→</span>
+            </button>
+          </div>
+
+          <p class="cta-stats">
+            Trusted by 10,000+ businesses | 50,000+ successful transactions
+          </p>
+
+        </div>
+      </section>
+
+    </section>
+
+
+    <section id="why-trust-us">
+      <!-- ================= WHY BUSINESSES TRUST US ================= -->
+      <section class="trust-section">
+
+        <h2>Why Businesses Trust Us</h2>
+
+        <div class="trust-grid">
+
+          <!-- ITEM 1 -->
+          <div class="trust-item">
+            <div class="trust-icon">
+              <img src="images/verified-icon.png" alt="Verified" />
+            </div>
+            <p>Verified Buyers & Sellers</p>
+          </div>
+
+          <!-- ITEM 2 -->
+          <div class="trust-item">
+            <div class="trust-icon">
+              <img src="images/gst-icon.png" alt="GST / Business Verified" />
+            </div>
+            <p>GST / Business Verified</p>
+          </div>
+
+          <!-- ITEM 3 -->
+          <div class="trust-item">
+            <div class="trust-icon">
+              <img src="images/directbuyer-icon.png" alt="Direct Buyer–Seller Contact" />
+            </div>
+            <p>Direct Buyer–Seller Contact</p>
+          </div>
+
+          <!-- ITEM 4 -->
+          <div class="trust-item">
+            <div class="trust-icon">
+              <img src="images/middleman-icon.png" alt="No Middlemen" />
+            </div>
+            <p>No Middlemen</p>
+          </div>
+
+        </div>
+      </section>
+
+    </section>
+  </main>
+
+  <footer id="footer">
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+      <div class="footer-container">
+
+        <!-- LEFT BRAND COLUMN -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img class="footer-logo-img" src="images/logo.png" alt="Metal Expert logo" />
+            <span class="logo-text"></span>
+            <h3>Metal Expert</h3>
+          </div>
+          <div class="social-icons" style="display: flex; gap: 16px;">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <img src="images/instagram.png" alt="Instagram" />
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <img src="images/facebook.png" alt="Facebook" />
+            </a>
+            <a href="#" class="social-link" aria-label="Pinterest">
+              <img src="images/pinterest.png" alt="Pinterest" />
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <img src="images/youtube.png" alt="YouTube" />
+            </a>
+          </div>
+
+          <h4 class="download-title">Download The App</h4>
+
+          <div class="footer-apps">
+            <img src="images/google-play.png" alt="Google Play" />
+            <img src="images/app-store.png" alt="App Store" />
+          </div>
+        </div>
+
+        <!-- CATEGORIES -->
+        <div class="footer-column">
+          <h4>Categories</h4>
+          <ul>
+            <li>Zinc</li>
+            <li>Iron</li>
+            <li>Copper</li>
+            <li>Brass</li>
+            <li>Steel</li>
+            <li>Aluminium</li>
+          </ul>
+        </div>
+
+        <!-- SUPPORT -->
+        <div class="footer-column">
+          <h4>Support</h4>
+          <ul>
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Return Policy</li>
+            <li>Contact Us</li>
+            <li>Track Order</li>
+          </ul>
+        </div>
+
+        <!-- REACH US -->
+        <div class="footer-column">
+          <h4>Reach us</h4>
+          <ul class="contact-list">
+            <li>
+              <img src="images/email-icon.png" alt="Email" class="contact-icon" />
+              <span>Example@gmail.com</span>
+            </li>
+            <li>
+              <img src="images/phone-icon.png" alt="Phone" class="contact-icon" />
+              <span>+91 12345-12345</span>
+            </li>
+            <li>
+              <img src="images/location-icon.png" alt="Location" class="contact-icon" />
+              <span>Mansrovar, Jaipur, Rajasthan</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- BOTTOM COPYRIGHT -->
+      <div class="footer-bottom">
+        2026 Metal Expert. All Rights Reserved
+      </div>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
