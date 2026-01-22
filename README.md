@@ -64,12 +64,12 @@ Welcome to **MetalExpertWebsite** — an online platform designed to showcase th
 
 ```
 MetalExpertWebsite/
-├── public/            # Static files (images, etc.)
-├── src/               # Application source code
-│   ├── components/    # Reusable components
-│   ├── pages/         # Website pages
-│   └── ...            # Utilities, assets, etc.
-├── package.json
+├── index.html/            # Static files (images, etc.)
+├── css/                   # Application source code
+│   ├── style.css/         # styling of layout 
+│                     
+│   |--images/ .png       # Website pages                         .
+├── js/ main.js
 └── README.md
 ```
 
