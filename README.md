@@ -44,21 +44,9 @@ Welcome to **MetalExpertWebsite** — an online platform designed to showcase th
    cd MetalExpertWebsite
    ```
 
-2. **Install dependencies** (if applicable)
-
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server** (if applicable)
-
-   ```bash
-   npm start
-   ```
-
 4. **Open your browser**
 
-   Navigate to `http://localhost:3000` (or the port your app runs on).
+   Navigate to `http://127.0.0.1:55000` (or the port your app runs on).
 
 ## Project Structure
 
